@@ -1,0 +1,25 @@
+
+
+
+
+.outline {
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+
+}
+
+.SearchBar {
+border-style: dashed;
+border-color: red;
+}
+
+.CurrentWeather {
+    border-style: dashed;
+    border-color: green;
+}
+
+.FiveDayForecast {
+    border-style: dashed;
+    border-color: blue;
+}
