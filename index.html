@@ -12,24 +12,19 @@
 <div class="container">
     <div class="outline"> 
 
-        <h1>The Weather DashBoard</h1>
+        <h1>Mjoc's Weather DashBoard</h1>
 
         <div class="row container">
             <div class="SearchBar col-md-3">
                 <div class="col-sm">
-                    One of three columns
                   <div>
                     
                     <label id="citySearch" class="citySearch" for="citySearch">Enter City: </label><input type="text"
-                        id="cityName" name="cityName" required><button class="btn btn-outline-secondary" type="button" id="search">Search</button>
+                        id="cityName" name="cityName" value="Toronto" required><button class="btn btn-outline-secondary" type="button" id="search">Search</button>
                      <br>
-                        The list of previous cities will go here
-                        Vancouver
-                        Toronto
-                        Penticton
-                        Paris
-                        Hong Kong
-                        Sydney etc
+                        List cities here
+
+
                 </div>
             </div>
                 
@@ -37,12 +32,12 @@
             <div class="CurrentWeather col-md-8">
 
                 The current weather will go here
-                <div class="current" style="width: 18rem;">
-                    <div class="card-body">
+                <div id="currentWeather" class="current" style="width: 18rem;">
+                    <!-- <div class="card-body">
                       <h5 class="card-title">Current Weather</h5>
                       <p class="card-text">IT IS SUNNY</p>
                       <a href="#" class="btn btn-primary">More Details</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -101,10 +96,9 @@
                 </div>
             </div>
         </div>
-        <div class="row"></div>
     </div>
 </div>
 
-    
+<script src="Assets/script.js"></script>
 </body>
 </html>

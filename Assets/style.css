@@ -3,23 +3,30 @@
 
 
 .outline {
+    color:white;
     border-style: solid;
     border-color: black;
     padding: 20px;
-
+    background-image: url(Images/IMG_2014.jpeg);
 }
 
 .SearchBar {
-border-style: dashed;
-border-color: red;
+    color:blue;
+    background-color: blanchedalmond;
+    border-style: dashed;
+    border-color: red;
 }
 
 .CurrentWeather {
+    color:blue;
+    background-color: blanchedalmond;
     border-style: dashed;
     border-color: green;
 }
 
 .FiveDayForecast {
+    color:blue;
+    background-color: blanchedalmond;
     border-style: dashed;
     border-color: blue;
 }
