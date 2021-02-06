@@ -28,6 +28,9 @@ body {
     border-color: red;
 }
 
+.citySearch {
+    font-size: large;
+}
 .CurrentWeather {
     color:blue;
     background-color: blanchedalmond;
@@ -50,4 +53,23 @@ body {
 .card-text {
     color: whitesmoke;
     font-size: 12px;
+}
+
+#forecastPlus1 {
+    float: left;
+}
+#forecastPlus2 {
+    float: left;
+}
+
+#forecastPlus3 {
+    float: left;
+}
+
+#forecastPlus4 {
+    float: left;
+}
+
+#forecastPlus5 {
+    float: left;
 }
