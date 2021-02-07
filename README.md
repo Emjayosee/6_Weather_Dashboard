@@ -10,7 +10,7 @@ Submitted: February 7, 2021, Michael O'Connor, WebDev Wannabe, 604 765-6061
 
 # 02 Approach:
 
-    In approching this project, started by getting an API key from the recommended weather platform.   Here is a link to the deployed page - https://emjayosee.github.io/Assignment04/.
+    In approching this project, started by getting an API key from the recommended weather platform. I then used the class example to replicate a fetch from openweathermap.org.  Once I got that working with the help of TA, I replicated that and then built the forecast.  With help from Tutor I got the local storage going.  I gave up trying to create a loop since there was only 5 cards to display, but I realize I need to work on my loops.
 
     I followed the following plan design:
 
