@@ -1,33 +1,22 @@
+/* This is the stylesheet file to my Weather DashBoard website, assignment 6. It is
+organized top down to match the HTML flow.  Much of the CSS styling is self explanatory due to the semantic HTML used in the associated file. */
+
+/*last updated by Michael O'Connor, February 7, 2021*/
 
 
-body {
-    padding: 10px;
-    background-image: url(Images/MorningSky.jpg);
-    width: 100%;
-    height: 200px;
-    background-repeat: repeat;
-    background-size: contain;
-    border: 1px solid red;
-    font-size: 40px;
-    padding-top: 60px;
-    padding-left: 20px;
-}
-
-.outline {
-    color:white;
-    border-style: solid;
-    border-color: black;
-    padding: 10px;
-    background-image: url(Images/IMG_2014.jpeg);
-}
-
-.SearchBar {
+.searchBar {
+    width: 20%;
+    float: left;
+    padding: 15px;
     color:blue;
     background-color: blanchedalmond;
-    border-style: dashed;
-    border-color: red;
 }
 
+.weatherBox {
+    width: 80%;
+    float: left;
+    padding: 15px;
+}
 .citySearch {
     font-size: large;
 }
@@ -50,9 +39,17 @@ body {
     font-size: 16px;
 }
 
+.card-temp {
+    color:yellow;
+}
+
 .card-text {
     color: whitesmoke;
     font-size: 12px;
+}
+
+.citySearch {
+    float:left;
 }
 
 #forecastPlus1 {
